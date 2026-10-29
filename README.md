@@ -127,7 +127,7 @@ Greeks are extracted directly from the early nodes of the lattice mesh:
 ## Project Architecture
 
 ```text
-binomial-pricing-engine/
+Binomial-Option-Pricing-Model-using-the-Cox-Ross-Rubinstein-CRR-model/
 ├── crr_engine/
 │   ├── __init__.py         # Public library API & exports
 │   ├── models.py           # Core CRR binomial pricing engine & Black-Scholes benchmark
@@ -151,8 +151,8 @@ This engine requires **only Python 3.8+** with the standard library. No `pip ins
 
 ```bash
 # Clone the repository
-git clone https://github.com/Bhargav221287/binomial-pricing-engine.git
-cd binomial-pricing-engine
+git clone https://github.com/Bhargav221287/Binomial-Option-Pricing-Model-using-the-Cox-Ross-Rubinstein-CRR-model.git
+cd Binomial-Option-Pricing-Model-using-the-Cox-Ross-Rubinstein-CRR-model
 
 # Verify installation by running test suite
 python -m unittest discover -s tests -v
